@@ -1,0 +1,54 @@
+<section id="customer">
+  <h1 class="mb-5">Customer Form</h1>
+  <div class="container p-2">
+    <div class="creation p-4">
+      <input class="m-2" name="id" id="customerID" [(ngModel)]="customer.id" placeholder="Customer ID" type="text">
+      <input class="m-2" name="name" id="customerName" [(ngModel)]="customer.name" placeholder="Customer Name"
+             type="text">
+      <input class="m-2" name="address" id="customerAddress" [(ngModel)]="customer.address"
+             placeholder="Customer Address" type="text">
+      <input class="m-2" name="email" id="customerEmail" [(ngModel)]="customer.email" placeholder="Email" type="email">
+      <input class="m-2" name="date" id="customerDOB" [(ngModel)]="customer.date" placeholder="Date Of Birth"
+             type="date">
+      <input class="m-2" name="nic" id="customerNIC" [(ngModel)]="customer.nic" placeholder="NIC" type="number">
+      <input class="m-2" name="contact" id="customerContact" [(ngModel)]="customer.contact" placeholder="Contact"
+             type="number">
+    </div>
+
+    <div class="button ps-4 ms-2">
+      <button (click)="saveCustomer()" class="btn btn-dark me-2">Save</button>
+      <button (click)="updateCustomer()" class="btn btn-dark me-2">Update</button>
+      <button (click)="deleteCustomer()" class="btn btn-dark me-2">Delete</button>
+      <button  class="btn btn-dark me-2">Clear</button>
+      <input placeholder="ID" class="me-2" type="search">
+      <button (click)="searchCustomer()" class="btn btn-dark se me-2">Search</button>
+    </div>
+    <div class="table-form pt-4">
+      <table class="table table-dark table-hover">
+        <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Name</th>
+          <th scope="col">Address</th>
+          <th scope="col">Email</th>
+          <th scope="col">Date Of Birth</th>
+          <th scope="col">NIC</th>
+          <th scope="col">Contact</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor=" let customer of ListCustomers">
+          <td>{{customer.id}}</td>
+          <td>{{customer.name}}</td>
+          <td>{{customer.address}}</td>
+          <td>{{customer.email}}</td>
+          <td>{{customer.date}}</td>
+          <td>{{customer.name}}</td>
+          <td>{{customer.address}}</td>
+        </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,45 @@
+#welcome {
+  background-size: cover;
+  background-image:url("src/assets/pos.jpg");
+  min-height: 90vh;
+  width: 100%;
+}
+
+#welcome .box1 {
+  left: 100px;
+  top: 200px;
+  width: 250px;
+  height: 190px;
+}
+
+#welcome .box2 {
+  left: 400px;
+  top: 10px;
+  width: 250px;
+  height: 190px;
+}
+
+#welcome .box3 {
+  left: 705px;
+  bottom: 180px;
+  width: 250px;
+  height: 190px;
+}
+
+#welcome .box1 h2 {
+  font-size: 3rem;
+  left: 40px;
+  bottom: 5px;
+}
+
+#welcome .box2 h2 {
+  font-size: 3rem;
+  left: 40px;
+  bottom: 5px;
+}
+
+#welcome .box3 h2 {
+  font-size: 3rem;
+  left: 40px;
+  bottom: 5px;
+}

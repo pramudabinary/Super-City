@@ -1,0 +1,99 @@
+<section id="order">
+  <h1 class="mb-5">Order Form</h1>
+  <div class="container position-relative">
+
+    <div class="fields card-body card  w-25 position-absolute ">
+      <h4 class="card-title">Invoice Details</h4>
+      <input class="m-1" placeholder="Order ID" type="text">
+      <input class="m-1" placeholder="Date" type="date">
+      <div class="dropdown">
+        <button aria-expanded="false" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                id="dropdownMenuButton1"
+                type="button">
+          Customer
+        </button>
+        <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <input class="m-1" placeholder="Customer ID" type="text">
+      <input class="m-1" placeholder="Name" type="text">
+      <input class="m-1" placeholder="Salary" type="text">
+    </div>
+
+    <div class="item-select card-body card w-25 position-absolute">
+      <h4 class="card-title">Item Select</h4>
+      <div class="combo-box">
+        <button aria-expanded="false" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                id="dropdownMenuButton2"
+                type="button">
+          Item
+        </button>
+        <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <input class="m-1" placeholder="Item Code" type="text">
+      <input class="m-1" placeholder="Item Name" type="text">
+      <input class="m-1" placeholder="Price" type="text">
+      <input class="m-1" placeholder="QtyOnHand" type="text">
+      <input class="m-1" placeholder="Order Qty" type="text">
+      <button class="btn btn-dark m-2">Add Item</button>
+    </div>
+
+    <div class="total card-body card w-50 position-absolute">
+      <h2>Total: 00.0Rs/=</h2>
+      <h2>SubTotal: 00.0Rs/=</h2>
+      <input class="m-2" placeholder="Cash" type="text">
+      <input class="m-2" placeholder="Discount" type="text">
+      <input class="m-2" placeholder="Balance" type="text">
+      <button class="btn btn-dark m-3">Purchase</button>
+    </div>
+
+    <table class="table table-hover table-bordered table-dark position-relative">
+      <thead>
+      <tr>
+        <th scope="col">Item Code</th>
+        <th scope="col">Item Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Total</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th scope="row">I001</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">I002</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">I003</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">I004</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        <td>@mdo</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

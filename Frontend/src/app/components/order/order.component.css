@@ -1,0 +1,31 @@
+/*--------------------Orders-----------------*/
+#order{
+  background-size: cover;
+  background-image:url("src/assets/pos.jpg");
+}
+#order .container {
+
+  min-height: 100vh;
+  width: 100%;
+}
+
+#order .container .fields {
+  right: 900px;
+  top: 20px;
+}
+
+#order .container .item-select {
+  bottom: 226px;
+  left: 300px;
+}
+
+#order .container .total {
+  bottom: 242px;
+  left: 650px;
+}
+
+#order .table {
+  top: 400px;
+  left: 5px;
+}
+

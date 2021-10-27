@@ -1,0 +1,9 @@
+/*--------------------Customers-----------------*/
+#customer {
+  background-size: contain;
+  background: url("src/assets/pos.jpg");
+  min-height: 90.6vh;
+  width: 100%;
+}
+
+/*--------------------Customers end-----------------*/

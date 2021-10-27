@@ -1,0 +1,16 @@
+//{
+//  "compilerOptions": {
+//    "module": "commonjs",
+//    "target": "es5",
+//    "sourceMap": true
+//  },
+//  "exclude": [
+//    "node_modules"
+//  ]
+//}
+
+{
+  "heroesUrl": "api/heroes",
+  "textfile": "assets/textfile.txt",
+  "date": "2020-01-29"
+}

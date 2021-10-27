@@ -1,0 +1,10 @@
+/*--------------------Items-----------------*/
+#item {
+  background-size: cover;
+  background-image:url("src/assets/pos.jpg");
+  min-height: 90.7vh;
+  width: 100%;
+}
+
+
+/*--------------------Items end-----------------*/
